@@ -3,7 +3,7 @@
   "steps": [
     {
       "step": "runPHP",
-      "code": "<?php require_once '/wordpress/wp-load.php'; $data = array( 'user_login' => 'WordPress-testaaja', 'user_pass' => 'password', 'role' => 'editor', 'display_name' => 'WordPress-testaaja', 'user_email' => 'testaaja@127.0.0.1',); wp_insert_user( $data ); ?>"
+      "code": "<?php require_once '/wordpress/wp-load.php'; $data = array( 'user_login' => 'WordPress-testaaja', 'user_pass' => 'salasana', 'role' => 'editor', 'display_name' => 'WordPress-testaaja', 'user_email' => 'testaaja@127.0.0.1',); wp_insert_user( $data ); ?>"
     },
     {
       "step": "login",
